@@ -1,0 +1,13 @@
+{
+  "name": "prism-grc-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "install-backend": "pip install -r backend/requirements.txt",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend && npm run install-frontend",
+    "build-frontend": "cd frontend && npm run build",
+    "build-all": "npm run build-frontend"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
