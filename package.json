@@ -1,4 +1,8 @@
-"scripts": {
-  "install-all": "cd frontend && npm install && npm install @vitejs/plugin-react --save-dev",
-  "build-all":   "cd frontend && npm run build"
+{
+  "name": "prism-grc-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "cd frontend && npm install && npm install @vitejs/plugin-react --save-dev",
+    "build-all": "cd frontend && npm run build"
+  }
 }
